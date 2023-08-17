@@ -11,6 +11,12 @@ cd book-project
 yarn
 ```
 
+## Create .env file
+
+```sh
+Create your .env file based on the example
+```
+
 ## Compile and Hot-Reload for Development
 
 ```sh

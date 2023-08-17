@@ -9,7 +9,12 @@ import {
   ActionIcon,
   Menu
 } from '@mantine/core';
-import { IconUser, IconMessage, IconBell } from '@tabler/icons-react';
+import {
+  IconUser,
+  IconMessage,
+  IconBell,
+  IconLogout
+} from '@tabler/icons-react';
 import { useState } from 'react';
 import { useOutlet } from 'react-router-dom';
 
@@ -64,7 +69,7 @@ const AppLayout = () => {
 
                   <Menu.Divider />
 
-                  <Menu.Label>Danger zone</Menu.Label>
+                  <Menu.Item icon={<IconLogout />}>Logout</Menu.Item>
                 </Menu.Dropdown>
               </Menu>
             </MediaQuery>
